@@ -77,7 +77,7 @@ if [ $? -eq 0 ]; then
     'termux-api'
     'proot-distro'
     'gping'
-bash-completion
+    'bash-completion'
   	)
 	pkg update
 	for PKG in "${PKGS[@]}"; do
