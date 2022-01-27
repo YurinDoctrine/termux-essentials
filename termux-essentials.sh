@@ -78,6 +78,7 @@ if [ $? -eq 0 ]; then
     'proot-distro'
     'gping'
     'bash-completion'
+    'busybox'
   	)
 	pkg update
 	for PKG in "${PKGS[@]}"; do
