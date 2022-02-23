@@ -79,6 +79,8 @@ if [ $? -eq 0 ]; then
     'gping'
     'bash-completion'
     'busybox'
+    'tar'
+    'axel'
   	)
 	pkg update
 	for PKG in "${PKGS[@]}"; do
