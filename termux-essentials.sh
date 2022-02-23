@@ -85,6 +85,6 @@ if [ $? -eq 0 ]; then
 	pkg update
 	for PKG in "${PKGS[@]}"; do
 		echo -e "INSTALLING: ${PKG}"
-		pkg install "$PKG"
+		apt-get install -yy "$PKG"
 	done
 fi
