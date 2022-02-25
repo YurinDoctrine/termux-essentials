@@ -81,6 +81,7 @@ if [ $? -eq 0 ]; then
     'busybox'
     'tar'
     'axel'
+    'pastebinit'
   	)
 	pkg update
 	for PKG in "${PKGS[@]}"; do
