@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 which pkg >/dev/null 2>&1
 if [ $? -eq 0 ]; then
-	PKGS=(
+  PKGS=(
     'file'
     'man'
     'termux-services'
@@ -82,10 +82,10 @@ if [ $? -eq 0 ]; then
     'tar'
     'axel'
     'pastebinit'
-  	)
-	pkg update
-	for PKG in "${PKGS[@]}"; do
-		echo -e "INSTALLING: ${PKG}"
-		apt-get install -yy "$PKG"
-	done
+  )
+  pkg update
+  for PKG in "${PKGS[@]}"; do
+    echo -e "INSTALLING: ${PKG}"
+    apt-get install -yy "$PKG"
+  done
 fi
