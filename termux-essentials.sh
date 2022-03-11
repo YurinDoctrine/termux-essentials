@@ -83,6 +83,8 @@ if [ $? -eq 0 ]; then
     'axel'
     'pastebinit'
     'lf'
+    'irssi'
+    'newsboat'
   )
   pkg update
   for PKG in "${PKGS[@]}"; do
