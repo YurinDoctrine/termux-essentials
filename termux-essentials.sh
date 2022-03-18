@@ -57,7 +57,7 @@ if [ $? -eq 0 ]; then
     'wireguard-tools'
     'micro'
     'cronie'
-    'lynx'
+    'links'
     'wget2'
     'gnupg'
     'rclone'
