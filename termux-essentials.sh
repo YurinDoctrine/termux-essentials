@@ -2,6 +2,8 @@
 which pkg >/dev/null 2>&1
 if [ $? -eq 0 ]; then
   PKGS=(
+    'x11-repo'
+
     'file'
     'man'
     'termux-services'
@@ -85,6 +87,8 @@ if [ $? -eq 0 ]; then
     'lf'
     'irssi'
     'newsboat'
+    'tigervnc'
+    'openbox'
   )
   pkg update
   for PKG in "${PKGS[@]}"; do
