@@ -89,6 +89,7 @@ if [ $? -eq 0 ]; then
     'newsboat'
     'tigervnc'
     'openbox'
+    'mpg123'
   )
   pkg update
   for PKG in "${PKGS[@]}"; do
