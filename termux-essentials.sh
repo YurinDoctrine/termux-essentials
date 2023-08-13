@@ -90,7 +90,9 @@ PKGS=(
   'openbox'
   'mpg123'
 )
+
 pkg update
+
 for PKG in "${PKGS[@]}"; do
   echo -e "INSTALLING: ${PKG}"
   apt-get install -yy "$PKG"
