@@ -95,5 +95,5 @@ pkg update
 
 for PKG in "${PKGS[@]}"; do
   echo -e "INSTALLING: ${PKG}"
-  apt-get install -yy "$PKG"
+  pacman -Syyu "$PKG"
 done
