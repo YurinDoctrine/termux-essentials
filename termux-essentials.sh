@@ -89,6 +89,7 @@ PKGS=(
   'tigervnc'
   'openbox'
   'mpg123'
+  'tmux'
 )
 
 pkg update
